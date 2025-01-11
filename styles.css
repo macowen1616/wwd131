@@ -1,0 +1,35 @@
+h1,h2,p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+    
+}
+
+h1,h2 {
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: capitalize;
+    line-height: normal;
+}
+
+h2 {
+    color: #006EB6;
+}
+
+p{
+    text-align: left;
+}
+
+.content {
+    margin-top: 20px;      
+    margin-left: auto;     
+    margin-right: auto;
+    width: 100%;           
+    max-width: 600px;      
+    padding: 20px;         
+    border: 2px; 
+}
+
+img {
+    width: 150px; 
+    height: auto; 
+}
