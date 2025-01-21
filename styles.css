@@ -1,6 +1,8 @@
-h1,h2,p {
-    font-size: 20px;
+h2{
+    
     font-family: 'Times New Roman', Times, serif ;
+    line-height: '1.5';
+    text-align: center;
     
 }
 
@@ -13,13 +15,17 @@ h1,h2 {
 
 h2 {
     color: #006EB6;
+    
 }
 
 p{
+    line-height: '1.5';
     text-align: left;
+    line-height: '1.5';
+    margin-top: 20px;
 }
 
-.content {
+.body {
     margin-top: 20px;      
     margin-left: auto;     
     margin-right: auto;
@@ -29,7 +35,37 @@ p{
     border: 2px; 
 }
 
+
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+body.dark h2 {
+    color: #90caf9;
+}
+
+body.dark footer img {
+    content: url('byui-logo_white.png'); 
+}
+
+
+ol li {
+    margin-bottom: 10px; 
+    line-height: '1.5';
+}
+
+
 img {
     width: 150px; 
     height: auto; 
+    margin-top: 10px;
+    line-height: '1.5';
+
+}
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
 }
