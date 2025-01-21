@@ -1,40 +1,48 @@
-h2{
-    
-    font-family: 'Times New Roman', Times, serif ;
-    line-height: '1.5';
-    text-align: center;
-    
-}
-
-h1,h2 {
-    text-align: center;
-    letter-spacing: .2rem;
-    text-transform: capitalize;
-    line-height: normal;
+body {
+    margin: 0; 
+    padding: 20px; 
+    border: 2px solid #050505; 
+    box-sizing: border-box; 
 }
 
 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
     color: #006EB6;
+    text-decoration: underline gray;
     
 }
 
-p{
-    line-height: '1.5';
-    text-align: left;
-    line-height: '1.5';
+.theme-selector {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    margin: 20px auto;           
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+}
+
+p, ol {
+    margin: 0 auto; 
+    text-align: left; 
     margin-top: 20px;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 .body {
-    margin-top: 20px;      
-    margin-left: auto;     
-    margin-right: auto;
-    width: 100%;           
-    max-width: 600px;      
-    padding: 20px;         
-    border: 2px; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    text-align: center; 
 }
-
 
 body.dark {
     background-color: #333;
@@ -46,26 +54,24 @@ body.dark h2 {
 }
 
 body.dark footer img {
-    content: url('byui-logo_white.png'); 
+    content: url('byui-logo_white.png');
 }
-
 
 ol li {
-    margin-bottom: 10px; 
-    line-height: '1.5';
+    margin-bottom: 10px;
+    line-height: 1.5;
 }
-
 
 img {
-    width: 150px; 
-    height: auto; 
+    width: 150px;
+    height: auto;
     margin-top: 10px;
-    line-height: '1.5';
-
 }
+
 footer {
     margin-top: 10px;
     display: flex;
-    justify-content: center; 
-    align-items: center;    
+    justify-content: center;
+    align-items: center;
 }
+
