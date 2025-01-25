@@ -1,11 +1,11 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header */
+
 header {
     background-color: #5D55A0;
     color: white;
@@ -26,18 +26,18 @@ header nav ul li {
 }
 
 header nav a {
-    color: white; /* White text for nav links */
+    color: white; 
     font-size: 16px;
     padding: 0.5rem;
 }
 
 header nav a:hover {
-    color: #f50909; /* Light hover effect */
+    color: #f50909; 
 }
 
-/* Menu Button */
+
 .menu-button {
-    display: none; /* Hide menu button on larger screens */
+    display: none; 
     background: none;
     border: none;
     color: white;
@@ -94,32 +94,32 @@ a:visited {
 /* Responsive Styles */
 @media (max-width: 768px) {
     body {
-        font-size: 16px; /* Slightly smaller font on mobile */
+        font-size: 16px; 
         text-align: center;
     }
 
     /* Navigation is always visible on mobile */
     header nav {
         display: flex;
-        flex-direction: column; /* Stack nav items vertically */
+        flex-direction: column; 
         align-items: center;
     }
 
     header nav ul {
-        flex-direction: column; /* Vertical layout for nav links */
+        flex-direction: column; 
         margin-top: 10px;
     }
 
     header nav ul li {
-        margin: 10px 0; /* Space between nav items */
+        margin: 10px 0; 
     }
 
     .gallery {
-        display: flex;               /* Use flexbox for better centering */
-        flex-direction: column;      /* Stack images vertically */
-        justify-content: center;     /* Center images vertically */
-        align-items: center;         /* Center images horizontally */
-        gap: 20px;                   /* Space between figures */
+        display: flex;               
+        flex-direction: column;      
+        justify-content: center;     
+        align-items: center;         
+        gap: 20px;                   
     }
 
     figure {
@@ -127,36 +127,36 @@ a:visited {
     }
 
     img {
-        max-width: 100%; /* Ensure images fit the container */
-        height: auto;    /* Maintain aspect ratio */
+        max-width: 100%; 
+        height: auto;    
     }
 }
 
 /* Responsive Styles for larger screens (around 700px) */
 @media (min-width: 700px) {
     .gallery {
-        display: grid; /* Switch to grid on larger screens */
-        grid-template-columns: repeat(2, 1fr); /* Two columns for medium-sized screens */
-        gap: 20px; /* Space between images */
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
     }
 
     header nav ul {
-        flex-direction: row; /* Horizontal layout for nav items */
+        flex-direction: row; 
     }
 }
 
-/* Responsive Styles for even larger screens (around 1000px) */
+
 @media (min-width: 1000px) {
     .gallery {
-        grid-template-columns: repeat(3, 1fr); /* Three columns for larger screens */
+        grid-template-columns: repeat(3, 1fr); 
     }
 
-    /* Hide the menu button on larger screens */
+    
     .menu-button {
         display: none;
     }
 
     header nav ul {
-        justify-content: center; /* Center nav links horizontally */
+        justify-content: center; 
     }
 }
